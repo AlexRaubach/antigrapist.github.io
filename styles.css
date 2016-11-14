@@ -1,1 +1,53 @@
-body {background:blue}
+body {background:cornsilk;
+	max-width: 1200px;
+}
+
+header {text-align: center;}
+
+a:visited {
+    color: green;
+}
+
+section#nowreading{
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+  margin-left: 50px;
+  text-align: center;
+  min-width: 250px;
+  margin-top: 10px;
+}
+.IMG{
+	max-width: 50%;
+	height: auto;
+	padding: 10px;
+}
+section#latestreview{
+	display: inline-block;
+	vertical-align: top;
+	width: 35%;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 2%;
+	background-image: url(seigaiha.png);
+	background-color: 	#708090;
+	font-family: "calibri", Georgia, Serif;
+}
+
+section#sidebar{
+	display: block;
+	float: right;
+	clear: right;
+	clear: left;
+	width: 20%;
+	margin-top: -510px;
+	min-width: 150px;
+}
+
+@media screen and (max-width: 750px) {
+  section#sidebar{
+  	float: none;
+  	margin-top: 0px;
+  }
+  
+}
