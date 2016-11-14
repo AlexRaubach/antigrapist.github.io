@@ -15,8 +15,9 @@ section#nowreading{
   margin-left: 50px;
   text-align: center;
   min-width: 250px;
+  margin-top: 10px;
 }
-#Dust{
+.IMG{
 	max-width: 50%;
 	height: auto;
 	padding: 10px;
@@ -24,10 +25,29 @@ section#nowreading{
 section#latestreview{
 	display: inline-block;
 	vertical-align: top;
-	width: 40%;
+	width: 35%;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 10px;
 	margin-left: 2%;
-	background-image: url(seigaiha);
+	background-image: url(seigaiha.png);
 	background-color: 	#708090;
+	font-family: "calibri", Georgia, Serif;
+}
+
+section#sidebar{
+	display: block;
+	float: right;
+	clear: right;
+	clear: left;
+	width: 20%;
+	margin-top: -510px;
+	min-width: 150px;
+}
+
+@media screen and (max-width: 750px) {
+  section#sidebar{
+  	float: none;
+  	margin-top: 0px;
+  }
+  
 }
