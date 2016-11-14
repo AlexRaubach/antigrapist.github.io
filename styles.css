@@ -34,7 +34,7 @@ section#latestreview{
 	font-family: "calibri", Georgia, Serif;
 }
 
-section#sidebar{
+div#sidebar{
 	display: block;
 	float: right;
 	clear: right;
@@ -45,7 +45,7 @@ section#sidebar{
 }
 
 @media screen and (max-width: 750px) {
-  section#sidebar{
+  div#sidebar{
   	float: none;
   	margin-top: 0px;
   }
