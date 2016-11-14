@@ -1,1 +1,33 @@
-body {background:blue}
+body {background:cornsilk;
+	max-width: 1200px;
+}
+
+header {text-align: center;}
+
+a:visited {
+    color: green;
+}
+
+section#nowreading{
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+  margin-left: 50px;
+  text-align: center;
+  min-width: 250px;
+}
+#Dust{
+	max-width: 50%;
+	height: auto;
+	padding: 10px;
+}
+section#latestreview{
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 2%;
+	background-image: url(seigaiha);
+	background-color: 	#708090;
+}
